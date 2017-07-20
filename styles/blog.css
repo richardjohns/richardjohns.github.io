@@ -10,3 +10,18 @@ body {
       font-family: 'Open Sans', sans-serif
 
 }
+
+footer {
+  display: flex;
+  align-items: center;
+}
+
+footer ul {
+  margin-bottom: 0;
+  padding-left: 13px;
+}
+
+footer li {
+  display: inline;
+  padding-right: 10px;
+}
