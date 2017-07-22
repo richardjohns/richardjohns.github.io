@@ -1,14 +1,22 @@
 h1 {
-      font-family: 'Crimson Text', serif;
+  font-family: 'Crimson Text', serif;
+  font-size: 36px;
 }
 
 h2 {
-      font-family: 'Crimson Text', serif;
+  font-family: 'Crimson Text', serif;
+}
+
+.display-3 {
+
+}
+
+.img-responsive {
+
 }
 
 body {
-      font-family: 'Open Sans', sans-serif
-
+  font-family: 'Open Sans', sans-serif
 }
 
 footer {
