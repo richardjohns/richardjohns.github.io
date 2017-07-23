@@ -1,5 +1,14 @@
 body {}
 
+@media (min-width: 48em)
+{
+    .masthead-brand {
+      float: left;
+    }
+    .nav-masthead {
+      float: right;
+    }
+  }
 h1 {
   font-family: 'Crimson Text', serif;
   font-size: 36px;
@@ -24,10 +33,16 @@ h2 {
   width: 100%;
 }
 
-#banner {
-  min-height: 400px;
-  min-width: 600px;
+.banner {
+    min-height: 400px;
   margin: 0 auto;
+  background-image: url(../media/jesus-kiteque-224069.jpg);
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 100%;
+  height: 50vw;
+/* max-height: 485px; */
 
 }
 
