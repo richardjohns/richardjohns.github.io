@@ -36,8 +36,8 @@ h2 {
 .banner {
   min-height: 400px;
   margin: 0 auto;
-  /*background-image: url(https://unsplash.com/?photo=wn-KYaHwcis);*/
-  background-image: url(../media/jesus-kiteque-224069.jpg);
+  background-image: url(jesus-kiteque-224069.jpg);
+  /*background-image: url(../media/jesus-kiteque-224069.jpg);*/
   background-position-x: center;
   background-repeat: no-repeat;
   background-size: cover;
