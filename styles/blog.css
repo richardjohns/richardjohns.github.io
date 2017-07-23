@@ -1,19 +1,42 @@
+body {}
+
 h1 {
   font-family: 'Crimson Text', serif;
   font-size: 36px;
+  align-items: center;
 }
 
 h2 {
   font-family: 'Crimson Text', serif;
 }
 
-.display-3 {
+.panel-title {
+  font-size: 20px;
+}
+
+.panel-body-text {
+  font-size: 16px;
+}
+
+.cover-container {
+  position: absolute;
+  top: 100px;
+  width: 100%;
+}
+
+#banner {
+  min-height: 400px;
+  min-width: 600px;
+  margin: 0 auto;
 
 }
 
-.img-responsive {
+/*.navbar-default {
+  background-image: url(media/jesus-kiteque-224069.jpg);
+  background-position: center 0;
+  background-repeat: no-repeat;
 
-}
+}*/
 
 body {
   font-family: 'Open Sans', sans-serif
