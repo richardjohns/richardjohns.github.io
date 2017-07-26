@@ -1,142 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
   <head>
-    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>richardjohns devblog</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flat-ui/2.3.0/css/vendor/bootstrap/css/bootstrap.min.css">
-    <!--load bootstrap first, then font, then custom css last  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flat-ui/2.3.0/css/flat-ui.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Open+Sans" rel="stylesheet">
+    <!--load skeleton first, then font, then custom css last  -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="styles/blog.css">
-    <!-- <link href="https://necolas.github.io/normalize.css/3.0.2/normalize.css" rel="stylesheet" type="text/css"> -->
+    <link rel="stylesheet" type="text/css" href="styles/blog.css">
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="styles/blog.css">
   </head>
 
-  <body class="site-wrapper">
-    <header class="navbar navbar-default">
-      <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html"><i class="fa fa-camera-retro" style="padding-right: 5px"></i>richardjohns</a>
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav"></ul>
-          <ul class="nav navbar-nav navbar-right">
-            <form class="navbar-form navbar-left">
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Search">
-              </div>
-              <button type="submit" class="btn btn-default">Submit</button>
-            </form>
-          </ul>
-        </div>
-      </div>
-
-      <div class="banner">
-      </div>
-
-      <div class="cover-container">
-      <h1 class="text-center">Welcome to richardjohns devblog</h1>
-      <p class="text-center">A repository of odd data compiled from the mind of a trainee webdev</p>
-      </div>
-
-<!-- blog post links placed in panels -->
+  <body class="section hero">
+    <header>title banner with background image
+      <div class="">richardjohns</div>
+      <h1 class="">Welcome to richardjohns devblog</h1>
+      <h2 class="">A repository of odd data compiled from the mind of a trainee webdev</h2>
+      <button type="button" name="Bio">BIO</button>
     </header>
+
     <main>
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h2 class="panel-title"><i class="fa fa-chevron-circle-right" aria-hidden="true" style="padding-right:5px"></i><a href="blog/c1-time-and-habits-blog.html">My reflections on time and habit techniques</a></h2>
-        </div>
-        <div class="panel-body">
-          <p style="font-size:16px">Published 16th July 2017</p>
-        </div>
-      </div>
 
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h2 class="panel-title"><i class="fa fa-chevron-circle-right" aria-hidden="true" style="padding-right:5px"></i><a href="blog/c1-reflection-blog.html">Reflections on Shereef's Fireside Chat</a></h2>
-        </div>
-        <div class="panel-body">
-          <p style="font-size:16px">Published 16th July 2017</p>
-        </div>
-      </div>
+      <section class="row">First row of blog posts
+        <div class="two columns"></div>
+        <div class="">thumbnail</div>
+        <div class="">story box</div>
+          <h3 class="">Headline</h3>
+          <div class="">Sample text</div>
+      </section>
 
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h2 class="panel-title"><i class="fa fa-chevron-circle-right" aria-hidden="true" style="padding-right:5px"></i><a href="blog/Toggl_time_entries_2017-07-10_to_2017-07-16.csv">Sprint1 timesheet</a></h2>
-        </div>
-        <div class="panel-body">
-          <p style="font-size:16px"></p>
-        </div>
-      </div>
+      <section class="row">Second row of blog posts
+        <div class="two columns"></div>
+        <div class="">thumbnail</div>
+        <div class="">story box</div>
+          <h3 class="">Headline</h3>
+          <div class="">Sample text</div>
+      </section>
 
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h2 class="panel-title"><i class="fa fa-chevron-circle-right" aria-hidden="true" style="padding-right:5px"></i><a href="blog/1-reflection.html">Reflections from Sprint-1</a></h2>
-        </div>
-        <div class="panel-body">
-          <p style="font-size:16px"></p>
-        </div>
-      </div>
+    </main>
 
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h2 class="panel-title"><i class="fa fa-chevron-circle-right" aria-hidden="true" style="padding-right:5px"></i><a href="blog/t2-html-css-dom-p1.html">Technical blog #1 (Udacity Reflection)</a></h2>
-      </div>
-      <div class="panel-body">
-        <p style="font-size:16px">Published 22nd July 2017</p>
-      </div>
-    </div>
-
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h2 class="panel-title"><i class="fa fa-chevron-circle-right" aria-hidden="true" style="padding-right:5px"></i><a href="blog/t2-html-css-dom-p2.html">Technical blog #2 (Udacity Reflection)</a></h2>
-      </div>
-      <div class="panel-body">
-        <p style="font-size:16px">Published 22nd July 2017</p>
-      </div>
-    </div>
-
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h2 class="panel-title"><i class="fa fa-chevron-circle-right" aria-hidden="true" style="padding-right:5px"></i><a href="blog/c2-emotional-intelligence.html">Cultural Blog 2</a></h2>
-      </div>
-      <div class="panel-body">
-        <p style="font-size:16px">Published 23rd July 2017</p>
-      </div>
-    </div>
-
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h2 class="panel-title"><i class="fa fa-chevron-circle-right" aria-hidden="true" style="padding-right:5px"></i><a href="blog/2-reflection.html">Reflections from Sprint-2</a></h2>
-      </div>
-      <div class="panel-body">
-        <p style="font-size:16px"></p>
-      </div>
-    </div>
-
-  </main>
-
-    <footer class="navbar navbar-default">
-      <ul>
-        <li><a href="#">Copyright RJ&Co 2017</a></li>
-        <li><a href="#">Privacy policy</a></li>
-        <li><a href="#">Terms of use</a></li>
-      </ul>
+    <footer>footer banner with background image
+      <div class="">Links box</div>
+      <div class="">Contact buttons box</div>
+      <div class="">Website credits box</div>
     </footer>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="https://use.fontawesome.com/392f08bd90.js"></script>
   </body>
 
 </html>
