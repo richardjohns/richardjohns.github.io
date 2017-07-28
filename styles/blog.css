@@ -1,7 +1,124 @@
+/*global*/
 * {
   outline: 1px solid red;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-  font: raleway;
+  font-family: 'Raleway', sans-serif;
+}
+
+header {
+
+}
+
+h1 {
+  font-family: 'Crimson Text', serif;
+  font-size: 36px;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Crimson Text', serif;
+  font-size: 24px;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Crimson Text', serif;
+  font-size: 20px;
+  text-align: left;
+  min-height: 50px;
+  margin-bottom: 5px;
+}
+
+h3 a {
+  text-decoration: none;
+}
+
+.row {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-height: 210px;
+    margin-bottom: 20px
+}
+
+/*banner*/
+.banner {
+  min-height: 400px;
+  margin: 0 auto;
+  background-image: url(../media/jesus-kiteque-224069.jpg);
+  /*background-image: url(../media/jesus-kiteque-224069.jpg);*/
+  /*per Jesus Kiteque unsplash https://unsplash.com/?photo=wn-KYaHwcis*/
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: fixed;
+  height: 50vw;
+}
+
+.buttonwrapper {
+  display: inline-flex;
+  position: absolute;
+  right: 42vw;
+}
+
+.bannerbutton {
+  align-items: center;
+  justify-content: center;
+
+}
+
+.blogwrapper {
+  display: flex;
+}
+
+.storybox {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+  padding-right: 5px;
+}
+
+.thumbnail {
+  width: 20%;
+  height: 100px;
+  margin-left: 5px;
+
+}
+
+.sample-text {
+  width: 100%;
+  min-height: 140px;
+}
+
+/*footer*/
+.footer {
+  max-height: 300px;
+}
+
+.footerwrapper {
+  padding-top: 20px;
+  min-height: 200px;
+  margin: auto 0;
+  background-image: url(../media/bench-accounting-49027.jpg);
+  /*background-image: url(../media/jesus-kiteque-224069.jpg);*/
+  /*per Jesus Kiteque unsplash https://unsplash.com/?photo=wn-KYaHwcis*/
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 40%;
+
+}
+
+.links {
+  width: 100px;
+}
+
+ul {
+  list-style: none;
+  margin-left: 20px;
 }

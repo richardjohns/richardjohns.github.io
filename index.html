@@ -8,44 +8,94 @@
     <!--load skeleton first, then font, then custom css last  -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" rel="stylesheet" type="text/css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="styles/blog.css">
-    <link rel="stylesheet" type="text/css" href="styles/blog.css">
-    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Open+Sans" rel="stylesheet">
+    <!-- <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"> -->
     <link rel="stylesheet" type="text/css" href="styles/blog.css">
   </head>
 
-  <body class="section hero">
-    <header>title banner with background image
+  <body class="">
+    <header class="banner">
       <div class="">richardjohns</div>
-      <h1 class="">Welcome to richardjohns devblog</h1>
+      <h1>Welcome to richardjohns devblog</h1>
       <h2 class="">A repository of odd data compiled from the mind of a trainee webdev</h2>
-      <button type="button" name="Bio">BIO</button>
+      <div class="buttonwrapper">
+        <button class="bannerbutton" type="button" name="Bio">BIO</button>
+      </div>
     </header>
 
     <main>
 
-      <section class="row">First row of blog posts
-        <div class="two columns"></div>
-        <div class="">thumbnail</div>
-        <div class="">story box</div>
-          <h3 class="">Headline</h3>
-          <div class="">Sample text</div>
+      <section class="row">
+        <div class="one-half column">
+          <div class="blogwrapper">
+            <div class="thumbnail">thumbnail</div>
+            <div class="storybox">
+              <h3 class=""><a href="blog/c1-time-and-habits-blog.html">My reflections on time and habit techniques</a></h3>
+              <div class="sample-text"><em>Q: Which timebox and habits techniques did you try?</em> A: In my own accounting career over the last year I've tended to use pomodoro already, just in an hour-long format so 50 minutes on, 10 off to recharge...
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="one-half column">
+          <div class="blogwrapper">
+            <div class="thumbnail">thumbnail</div>
+            <div class="storybox">
+              <h3 class=""><a href="blog/c1-reflection-blog.html">Reflections on Shereef's Fireside Chat</a></h3>
+              <div class="sample-text"><em>Q: What's your take on the DBC/EDA experience?</em> A: My take is that overall dev academy is very much about what we make of it and how we bring others along in our journey. If we want to transform our lives and careers, the aim...
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
-      <section class="row">Second row of blog posts
-        <div class="two columns"></div>
-        <div class="">thumbnail</div>
-        <div class="">story box</div>
-          <h3 class="">Headline</h3>
-          <div class="">Sample text</div>
+
+      <section class="row">
+        <div class="one-half column">
+          <div class="blogwrapper">
+            <div class="thumbnail">thumbnail</div>
+            <div class="storybox">
+              <h3 class=""><a href="blog/1-reflection.html">Reflections from Sprint-1</a></h3>
+              <div class="sample-text"><em>Q: Why is reflection important?</em> A: Well, from this exercise celebrating wins does give that little bit of confidence at least at home typing at my desk, so I see the value in that.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="one-half column">
+          <div class="blogwrapper">
+            <div class="thumbnail">thumbnail</div>
+            <div class="storybox">
+              <h3 class=""><a href="blog/t2-html-css-dom-p1.html">Technical blog #1 (Udacity Reflection)</a></h3>
+              <div class="sample-text"><em>Q: From the websites you visited in the practice assignment, create a list of design and structural features you liked that you may want to use in your designs next week. Think of this as a wishlist.</em> A: Here's some interesting features...</div>
+            </div>
+          </div>
+        </div>
       </section>
 
     </main>
 
-    <footer>footer banner with background image
-      <div class="">Links box</div>
-      <div class="">Contact buttons box</div>
-      <div class="">Website credits box</div>
+    <footer class="footer">
+      <div class="container full-width">
+        <div class="row">
+          <div class="one-third column">
+            <div class="links">
+              <ul>
+                <li>LINKS</li>
+                <li>BIO</li>
+                <li>PRIVACY</li>
+                <li>TERMS</li>
+              </ul>
+            </div>
+          </div>
+          <div class="one-third column">
+            <div class="contacts">
+            </div>
+          </div>
+          <div class="one-third column">
+            <div class="credits">© Copyright 2017 richardjohns</div>
+          </div>
+        </div>
     </footer>
 
   </body>
