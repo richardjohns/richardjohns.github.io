@@ -1,6 +1,6 @@
 /*global*/
 * {
-  outline: 1px solid red;
+  /*outline: 1px solid red;*/
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
@@ -11,8 +11,11 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
-header {
+.container: {
+  width: 100%
+}
 
+header {
 }
 
 h1 {
@@ -37,6 +40,7 @@ h3 {
 
 h3 a {
   text-decoration: none;
+  color: black;
 }
 
 .row {
@@ -47,6 +51,12 @@ h3 a {
 }
 
 /*banner*/
+.homebutton a {
+  text-decoration: none;
+  color: #555;
+}
+
+
 .banner {
   min-height: 400px;
   margin: 0 auto;
@@ -57,13 +67,14 @@ h3 a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: fixed;
-  height: 50vw;
+  /*height: 50vw;*/
 }
 
 .buttonwrapper {
   display: inline-flex;
   position: absolute;
   right: 42vw;
+  margin: auto;
 }
 
 .bannerbutton {
@@ -72,8 +83,11 @@ h3 a {
 
 }
 
+/*blog summaries*/
 .blogwrapper {
   display: flex;
+  border-radius: 4px;
+  border: 1px solid #bbb;
 }
 
 .storybox {
@@ -83,11 +97,36 @@ h3 a {
   padding-right: 5px;
 }
 
-.thumbnail {
-  width: 20%;
-  height: 100px;
-  margin-left: 5px;
+.storybox h3 {
+  colour: #cfd6de;
+}
 
+.thumbnail {
+  width: 100px;
+  /*height: 100px;*/
+  /*margin-left: 5px;*/
+  /*margin: 0 0;*/
+  background-position-x: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 0;
+  color: rgba(0, 0, 0, 0);
+}
+
+.img1 {
+  background-image: url(../media/lukas-blazek-263122.jpg);
+}
+
+.img2 {
+  background-image: url(../media/tirza-van-dijk-58301.jpg);
+}
+
+.img3 {
+  background-image: url(../media/cara-fuller-291307.jpg);
+}
+
+.img4 {
+  background-image: url(../media/joe-beck-28190.jpg);
 }
 
 .sample-text {
@@ -97,28 +136,93 @@ h3 a {
 
 /*footer*/
 .footer {
-  max-height: 300px;
+  display: inline-block;
+  /*max-height: 300px;*/
+  margin: auto 0;
+  background-image: url(../media/bench-accounting-49027.jpg);
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 40%;
+  width: 100%;
+  /*overflow: hidden;*/
 }
 
 .footerwrapper {
   padding-top: 20px;
   min-height: 200px;
-  margin: auto 0;
-  background-image: url(../media/bench-accounting-49027.jpg);
-  /*background-image: url(../media/jesus-kiteque-224069.jpg);*/
-  /*per Jesus Kiteque unsplash https://unsplash.com/?photo=wn-KYaHwcis*/
-  background-position-x: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-y: 40%;
+  /*background-color: rgb(208, 216, 208);*/
 
 }
 
 .links {
   width: 100px;
+  list-style: none;
+  padding-left: 20px;
+  text-transform: uppercase;
+  display: inline-block;
+  /*padding: 0 30px;*/
+  color: rgb(255, 255, 255);
+  text-align: left;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-decoration: none;
+  background-color: transparent;
+  cursor: pointer;
+  box-sizing: border-box;
 }
 
-ul {
+.links ul {
   list-style: none;
-  margin-left: 20px;
+  text-transform: uppercase;
+  display: inline-block;
+  color: #555;
+  text-align: left;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-decoration: none;
+  background-color: transparent;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.contacts {
+  list-style: none;
+  padding-left: 20px;
+  text-transform: uppercase;
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  text-align: left;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-decoration: none;
+  background-color: transparent;
+  cursor: pointer;
+  box-sizing: border-box;
+
+}
+
+.contacts ul {
+  list-style: none;
+  text-transform: uppercase;
+  color: #555;
+  text-align: left;
+  font-size: 16px;
+  /*font-weight: 600;*/
+  /*line-height: 38px;*/
+  letter-spacing: .1rem;
+  text-decoration: none;
+  background-color: transparent;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.credits {
+  text-align: right;
 }
