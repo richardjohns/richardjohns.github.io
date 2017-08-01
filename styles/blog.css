@@ -59,6 +59,7 @@ h3 a {
 
 .banner {
   min-height: 400px;
+  max-height: 400px;
   margin: 0 auto;
   background-image: url(../media/jesus-kiteque-224069.jpg);
   /*background-image: url(../media/jesus-kiteque-224069.jpg);*/

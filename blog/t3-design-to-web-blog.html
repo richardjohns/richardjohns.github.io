@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>richardjohns devblog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flat-ui/2.3.0/css/vendor/bootstrap/css/bootstrap.min.css">
+    <!--load bootstrap first, then font, then custom css last  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flat-ui/2.3.0/css/flat-ui.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../styles/blog.css">
+  </head>
+
+  <body class="container">
+    <header class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../index.html"><i class="fa fa-camera-retro" style="padding-right: 5px"></i>richardjohns</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav"></ul>
+          <form class="navbar-form navbar-left">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+          <ul class="nav navbar-nav navbar-right"></ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+  </header>
+
+  <section class="jumbotron">
+    <h1>3.2 Technical Blog</h1>
+    <p>Enspiral blog 8 - 30th July 2017</p>
+  </section>
+
+    <main>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2 class="panel-title"><i class="fa fa-chevron-circle-right" aria-hidden="true" style="padding-right:5px"></i> What a responsive site is, and why responsiveness is important?</h2>
+        </div>
+        <div class="panel-body">
+          <p>Responsive sites are sites that adapt their layout and content to the size of the screen they're being displayed on. It's simply important in order to maintain accessibility and functionality, and clarity of message to the user across a variety of devices.</p>
+
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2 class="panel-title"><i class="fa fa-chevron-circle-right" aria-hidden="true" style="padding-right:5px"></i> What is mobile-first design, and why is it important?</h2>
+        </div>
+        <div class="panel-body">
+          <p>Mobile first design is where the site is designed for small mobile size screens first, and then media queries are used to change content (using min-width css) when the site is accessed on a screen that's above a certain size. This helps smaller and less powerful devices to load the page more quickly as they don't have to run all css before the relevant css is accessed.</p>
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2 class="panel-title"><i class="fa fa-chevron-circle-right" aria-hidden="true" style="padding-right:5px"></i> What are frameworks, listing their pros and cons.</h2>
+        </div>
+        <div class="panel-body">
+          <p>Frameworks such bootstrap and foundation deal with a lot of complex, relsponsive website elements including the grid system using classes linked to javascript. This can make website development really easy and quick, but it can limit flexibility and creativity.</p>
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2 class="panel-title"><i class="fa fa-chevron-circle-right" aria-hidden="true" style="padding-right:5px"></i>What is a wireframe, and why do we use it?</h2>
+        </div>
+        <div class="panel-body">
+          <p>Wireframes allow us to plan in advance our website development on the html and css sides which means we're more likely to develop the site quickly and acheive the desired webpage.</p>
+        </div>
+      </div>
+    </main>
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h2 class="panel-title"><i class="fa fa-chevron-circle-right" aria-hidden="true" style="padding-right:5px"></i> The aspects of your wireframes you found difficult to implement, and why.</h2>
+      </div>
+      <div class="panel-body">
+        <p>Acheiving aspects of my wireframe design presented a number of difficulties, primarily with dealing with flexbox layouts for the blog headlines on my index page. Another problem has been properly centering, sizing, and moving images in a way that still works in a responsive way between different screen sizes - still not there with that! For some reason "center" properties don't really wind up centered, and the skeleton buttons don't respond to having their css position data changed. Finally, the use of background images for my blog thumbnails has resulted in massively long page load times!</p>
+      </div>
+    </div>
+  </main>
+
+    <footer class="navbar navbar-default">
+      <ul>
+        <li><a href="#">Copyright RJ&Co 2017</a></li>
+        <li><a href="#">Privacy policy</a></li>
+        <li><a href="#">Terms of use</a></li>
+      </ul>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/392f08bd90.js"></script>
+  </body>
+
+
+</html>
