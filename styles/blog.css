@@ -71,6 +71,20 @@ h3 a {
   /*height: 50vw;*/
 }
 
+.bannerculture {
+  min-height: 400px;
+  max-height: 400px;
+  margin: 0 auto;
+  background-image: url(../media/joe-beck-28190.jpg);
+  /*background-image: url(../media/jesus-kiteque-224069.jpg);*/
+  /*per Jesus Kiteque unsplash https://unsplash.com/?photo=wn-KYaHwcis*/
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 0vw;
+  /*height: 50vw;*/
+}
+
 .buttonwrapper {
   display: inline-flex;
   position: absolute;
@@ -133,6 +147,12 @@ h3 a {
 .sample-text {
   width: 100%;
   min-height: 140px;
+}
+
+/*form*/
+.formwrapper {
+  border-radius: 4px;
+  border: 1px solid #bbb;
 }
 
 /*footer*/
