@@ -24,10 +24,24 @@ h1 {
   text-align: center;
 }
 
+.h1white {
+  font-family: 'Crimson Text', serif;
+  font-size: 36px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
 h2 {
   font-family: 'Crimson Text', serif;
   font-size: 24px;
   text-align: center;
+}
+
+.h2white {
+  font-family: 'Crimson Text', serif;
+  font-size: 24px;
+  text-align: center;
+  color: #FFFFFF;
 }
 
 h3 {
@@ -76,8 +90,18 @@ h3 a {
   max-height: 400px;
   margin: 0 auto;
   background-image: url(../media/joe-beck-28190.jpg);
-  /*background-image: url(../media/jesus-kiteque-224069.jpg);*/
-  /*per Jesus Kiteque unsplash https://unsplash.com/?photo=wn-KYaHwcis*/
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 0vw;
+  /*height: 50vw;*/
+}
+
+.bannertechnical {
+  min-height: 400px;
+  max-height: 400px;
+  margin: 0 auto;
+  background-image: url(../media/emile-perron-190221.jpg);
   background-position-x: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -148,7 +172,6 @@ h3 a {
 
 .wireframe-index-page-desktop {
   background-image: url(../media/wireframe-index-page-desktop.html);
-
 }
 
 .sample-text {
