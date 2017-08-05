@@ -81,8 +81,24 @@ h3 a {
   background-position-x: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-y: -5vw;
+  background-position-y: bottom;
+  /*crop image to centre*/
   /*height: 50vw;*/
+}
+
+
+@media (min-width: 912px) {
+  .banner {
+    background-position-y: 80%;
+
+  }
+}
+
+@media (min-width: 1025px) {
+  .banner {
+    background-position-y: 80%;
+
+  }
 }
 
 .bannerculture {
@@ -110,15 +126,15 @@ h3 a {
 }
 
 .buttonwrapper {
-  display: inline-flex;
-  position: absolute;
-  right: 42vw;
-  margin: auto;
+
 }
 
 .bannerbutton {
-  align-items: center;
-  justify-content: center;
+  /*old-school way before flexbox*/
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  /*read up on display property*/
 
 }
 
