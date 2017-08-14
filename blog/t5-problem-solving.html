@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>richardjohns devblog - technical blog 5</title>
+    <!--load skeleton first, then font, then custom css last  -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Open+Sans" rel="stylesheet">
+    <!-- <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"> -->
+    <link rel="stylesheet" type="text/css" href="../styles/blog.css">
+  </head>
+
+  <body class="">
+    <header class="bannerculture">
+      <div class="homebutton">
+        <a class="homebuttonlink" href="../index.html"><i class="fa fa-camera-retro" style="padding-right: 5px"></i>richardjohns</a>
+      </div>
+      <h1>4.3 Technical Blog</h1>
+      <h2 class="">Enspiral Blog 16 - published 13th August 2017</h2>
+      <div class="buttonwrapper">
+        <button class="bannerbutton" type="button" name="Bio">BIO</button>
+      </div>
+    </header>
+
+    <main>
+
+      <section class="row">
+        <div class="">
+          <div class="blogwrapper">
+            <div class="img1 thumbnail">thumbnail</div>
+            <div class="storybox">
+              <h3>As if talking to a non-tech friend, tell a story about a time you:</h3>
+              <h3 class="">1. Got blocked on a simple problem</h3>
+              <h3 class="">Q: What was the problem?</h3>
+              <div class="sample-text">A: In this case I was having trouble with a loop exercise and couldn't figure out why the loop wasn't adding to the variable. </div>
+              <h3 class="">Q:  What problem solving techniques did you use?</h3>
+              <div class="sample-text">A: Mainly I used psuedocode. I went for a walk and on the way back home with a coffee I realised why my variable wasn't increasing in value... it was due to me having placed the variable above the function (ie in the global scope). As a result the function loop kept grabbing the global variable, adding it then dropping it and starting from scratch each time. I put the variable inside the function and used a parameter then it started working... phew.</div>
+              <h3 class="">Q: How did you feel throughout the process?</h3>
+              <div class="sample-text">A: Generally really frustrated but curious - alot of satisfaction when the code came right. </div>
+              <h3 class="">Q:  What did you learn?</h3>
+              <div class="sample-text">A: It was a simple example of scope chain that I learned from the hard way! </div>
+              <br>
+              <h3 class="">2. Solved a problem in an elegant way</h3>
+              <h3 class="">Q: What was the problem?</h3>
+              <div class="sample-text">A: I had problems with the chessboard idea and was unable to get an alternating pattern to console.log. </div>
+              <h3 class="">Q:  What problem solving techniques did you use?</h3>
+              <div class="sample-text">A: Again I mainly used psuedocoding to visualise a solution. I realised I could cheat by running the two types of lines (eg # first or space first) by running a nested loop formula (ie 4 inner loops and 4 outer loops).</div>
+              <h3 class="">Q: How did you feel throughout the process?</h3>
+              <div class="sample-text">A: I knew it wasn't a perfect answer but frankly I was relieved that I had something I could use and progress with. I was pleased with at least having an answer. </div>
+              <h3 class="">Q:  What did you learn?</h3>
+              <div class="sample-text">A: I learned from the answer that the author's code was pretty complex - wasn't sure I knew enough about js to come up with that at my level. I did it my own way and produced a little thing I was proud of - though superficial! </div>
+              <br>
+              <h3>Reflect on how confident you feel using the problem solving techniques and processes:</h3>
+              <h3 class="">Psuedocode</h3>
+              <div class="sample-text">A: This one is kinda essential I feel! Trying to visualise the path to solving a problem at a high level, or by dwelling on it. I'm fairly confident with this but not necessarily with coding problems.</div>
+              <h3 class="">Trying something</h3>
+              <div class="sample-text">A: I'm fairly confident with this step but will need to develop in this as I don't have a lot of tools at my disposal in order to solve a problem at the moment but this will change,</div>
+              <h3 class="">Rubber-ducky method</h3>
+              <div class="sample-text">A: I like this method, but often I find that talking the problem through with another person is just as effective and bit more rewarding so I go do that!</div>
+              <h3 class="">Reading error messages</h3>
+              <div class="sample-text">A: I'm starting to see that these are useful... at least for picking up basics like broken paths, undefined variables, missing brackets! </div>
+              <h3 class="">Console.logging</h3>
+              <div class="sample-text">A: I like this approach for console.logging i on loops as the output shows you each step the loop takes for a quick debug. </div>
+              <h3 class="">Googling</h3>
+              <div class="sample-text">A: Naturally really confident on this - well trained by life I guess.</div>
+              <h3 class="">Asking your peers for help</h3>
+              <div class="sample-text">A: I'm getting better at this as I'm firing a few questions at Callum for instance when I get stuck as he seems to be further ahead.</div>
+              <h3 class="">Asking coaches for help</h3>
+              <div class="sample-text">A: I think I'm confident with asking coaches - perhaps too confident! It's tempting to go straight to the coach as they'll give you the best answer in the quickest time.</div>
+              <h3 class="">Improving your process with reflection</h3>
+              <div class="sample-text">A: I'm not too confident on using reflection as a problem solving tool but I'll keep at it!</div>
+              <br>
+              <h3>Using the JS Array docs as a starting point, describe what these functions do in your own words:</h3>
+              <h3 class="">.map()</h3>
+              <div class="sample-text">A: Ja </div>
+              <h3 class="">.filter()</h3>
+              <div class="sample-text">A: When a function is run over an array, this array method is used to create a new array for every instance of the subject array for which the function returns true. </div>
+              <h3 class="">.reduce()</h3>
+              <div class="sample-text">A: Ja </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <form class="formwrapper">
+        <div class="row">
+          <div class="six columns">
+            <label for="exampleEmailInput">Your email</label>
+            <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
+          </div>
+          <div class="six columns">
+            <label for="exampleRecipientInput">Reason for contacting</label>
+            <select class="u-full-width" id="exampleRecipientInput">
+              <option value="Option 1">Questions</option>
+              <option value="Option 2">Admiration</option>
+              <option value="Option 3">Can I get your number?</option>
+            </select>
+          </div>
+        </div>
+        <label for="exampleMessage">Message</label>
+        <textarea class="u-full-width" placeholder="Hi Dave …" id="exampleMessage"></textarea>
+        <label class="example-send-yourself-copy">
+          <input type="checkbox">
+          <span class="label-body">Send a copy to yourself</span>
+        </label>
+        <input class="button" type="submit" value="Submit">
+      </form>
+
+    </main>
+
+    <footer class="footer">
+      <div class="">
+        <div class="row">
+          <div class="one-third column">
+            <div class="links">links
+              <ul>
+                <li>bio</li>
+                <li>privacy</li>
+                <li>terms</li>
+              </ul>
+            </div>
+          </div>
+          <div class="one-third column">
+            <div class="contacts">connect
+              <ul>
+                <li><i class="fa fa-facebook-square" aria-hidden="true"></i>
+                </li>
+                <li><i class="fa fa-twitter" aria-hidden="true"></i>
+                </li>
+                <li><i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="one-third column">
+          </div>
+        </div>
+          <div class="credits">© Copyright 2017 richardjohns
+          </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/392f08bd90.js"></script>
+  </body>
+
+</html>
