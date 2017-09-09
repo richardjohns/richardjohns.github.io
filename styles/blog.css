@@ -55,6 +55,7 @@ h3 {
 h3 a {
   text-decoration: none;
   color: black;
+  font-style: normal;
 }
 
 .row {
