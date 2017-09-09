@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>richardjohns devblog - technical blog 8</title>
+    <!--load skeleton first, then font, then custom css last  -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Open+Sans" rel="stylesheet">
+    <!-- <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"> -->
+    <link rel="stylesheet" type="text/css" href="../styles/blog.css">
+  </head>
+
+  <body class="">
+    <header class="bannerculture">
+      <div class="homebutton">
+        <a class="homebuttonlink" href="../index.html"><i class="fa fa-camera-retro" style="padding-right: 5px"></i>richardjohns</a>
+      </div>
+      <h1>8.3 Technical Blog</h1>
+      <h2 class="">Enspiral Blog 17 - published 6th September 2017</h2>
+      <div class="buttonwrapper">
+        <button class="bannerbutton" type="button" name="Bio">BIO</button>
+      </div>
+    </header>
+
+    <main>
+
+      <section class="row">
+        <div class="">
+          <div class="blogwrapper">
+            <div class="img1 thumbnail">thumbnail</div>
+            <div class="storybox">
+              <h3>As if talking to a non-tech friend explain: --</h3>
+              <h3 class="">Q:  What 'scope' is, and how it works in JavaScript.</h3>
+              <div class="sample-text">A: Scope refers to the context that your selected code sits within, which can be either globally or locally defined. Local scope is defined as any scope defined past the global scope. An example would be wherever variables are defined within a function. These are locally scoped and can't be accessed from the outer global scope.
+              <br>
+              Local scope will only result from creating variables within a function, for instance it can't be created within for or while loops.
+              <br>
+              There's also lexical scope or closure (also referred to as static scope). Whenever you see a function within another function, the inner function has access to the scope in the outer function, and this applies all the way up the 'scope chain', ie any number of nested functions can access the variable defined in the parent.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <form class="formwrapper">
+        <div class="row">
+          <div class="six columns">
+            <label for="exampleEmailInput">Your email</label>
+            <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
+          </div>
+          <div class="six columns">
+            <label for="exampleRecipientInput">Reason for contacting</label>
+            <select class="u-full-width" id="exampleRecipientInput">
+              <option value="Option 1">Questions</option>
+              <option value="Option 2">Admiration</option>
+              <option value="Option 3">Can I get your number?</option>
+            </select>
+          </div>
+        </div>
+        <label for="exampleMessage">Message</label>
+        <textarea class="u-full-width" placeholder="Hi Dave …" id="exampleMessage"></textarea>
+        <label class="example-send-yourself-copy">
+          <input type="checkbox">
+          <span class="label-body">Send a copy to yourself</span>
+        </label>
+        <input class="button" type="submit" value="Submit">
+      </form>
+
+    </main>
+
+    <footer class="footer">
+      <div class="">
+        <div class="row">
+          <div class="one-third column">
+            <div class="links">links
+              <ul>
+                <li>bio</li>
+                <li>privacy</li>
+                <li>terms</li>
+              </ul>
+            </div>
+          </div>
+          <div class="one-third column">
+            <div class="contacts">connect
+              <ul>
+                <li><i class="fa fa-facebook-square" aria-hidden="true"></i>
+                </li>
+                <li><i class="fa fa-twitter" aria-hidden="true"></i>
+                </li>
+                <li><i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="one-third column">
+          </div>
+        </div>
+          <div class="credits">© Copyright 2017 richardjohns
+          </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/392f08bd90.js"></script>
+  </body>
+
+</html>
