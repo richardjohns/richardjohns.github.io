@@ -151,12 +151,17 @@ h3 a {
 .storybox {
   /*display: flex;
   flex-direction: column;*/
-  margin-left: 5px;
-  padding-right: 5px;
+  margin-left: 0px;
+  padding-left: 5px;
+  text-indent: 0px;
 }
 
 .storybox h3 {
-  colour: #cfd6de;
+  background-color: #EDEFF2
+  ;
+  margin-left: 0px;
+  padding-left: 5px;
+  text-indent: 0px;
 }
 
 .thumbnail {
